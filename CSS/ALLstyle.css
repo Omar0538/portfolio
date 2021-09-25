@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+#allsection #leftsection{
+ 
+    top: 0;
+    height: 700px;
+}
+
+#rightsection{
+    z-index: 3;
+}
+#allsection{
+    font-family: "Poppins";
+}
+#navbarNav .navbar-nav{
+    font-size: 13px;
+    font-weight: 400;
+    
+}
+footer p{
+    font-size: 13px;
+}
+#navbarNav ul li a.nav-link:hover{
+    color: #0d6efd;
+}
+
+.carousel-inner .carousel-item{
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.carousel-inner #one{
+    background-image: url('../IMAGES/carouselimage1.jpg');
+
+}
+.carousel-inner #two{
+    background-image: url('../IMAGES/carouselimage2.jpg');
+}
+.carousel-inner #one h1{
+    font-family:"Poppins";
+} 
+#Services .row{
+    font-family:'Quicksand'!important;
+}
+.progress-bar::after{
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    z-index: 1;
+    border-radius: 50%;    
+
+}
+ .progress-bar::before{
+    position: absolute;
+    top: 8px;
+    font-size: 12px;
+    font-weight: bold;
+}
+ .progress-bar.bg-danger::after{
+    background-color: RGB(220, 53, 69);
+    right: 5%;
+}
+.progress-bar.bg-danger::before{
+    content: "95%";
+    right: 5%;
+    color: RGB(220, 53, 69);
+}
+ .progress-bar.bg-info::after{
+    background-color: RGB(13, 202, 240);
+    right:10%;
+}
+ .progress-bar.bg-info::before{
+    content: "90%";
+    right: 10%;
+    color:RGB(13, 202, 240);
+}
+ .progress-bar.bg-success::after{
+    background-color: RGB(25, 135, 84);
+    right: 20%;
+}
+ .progress-bar.bg-success::before{
+    content: "80%";
+    right: 20%;
+    color:RGB(25, 135, 84);
+}
+ .progress-bar.bg-primary::after{
+    background-color: RGB(13, 110, 253);
+    right: 25%;
+}
+ .progress-bar.bg-primary::before{
+    content: "75%";
+    right: 25%;
+    color:RGB(13, 110, 253);
+}
+ .progress-bar.bg-warning::after{
+    background-color: RGB(255, 193, 7);
+    right: 30%;
+}
+ .progress-bar.bg-warning::before{
+    content: "70%";
+    right: 30%;
+    color:RGB(255, 193, 7);
+}
+ .progress-bar.bg-secondary::after{
+    background-color: RGB(108, 117, 125);
+    right: 40%;
+}
+.col-6 .progress-bar.bg-secondary::before{
+    content: "60%";
+    right: 40%;
+    color:RGB(108, 117, 125);
+}
